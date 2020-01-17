@@ -11,7 +11,6 @@
 		A5FE20BB23D1D21F00E82104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */; };
 		A5FE20BD23D1D21F00E82104 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE20BC23D1D21F00E82104 /* MainViewController.swift */; };
 		A5FE20C223D1D22400E82104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FE20C123D1D22400E82104 /* Assets.xcassets */; };
-		A5FE20C523D1D22400E82104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FE20C323D1D22400E82104 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5FE20BC23D1D21F00E82104 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A5FE20C123D1D22400E82104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5FE20C423D1D22400E82104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5FE20C623D1D22400E82104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 				A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */,
 				A588423D23D1D55B00E6E372 /* Scene */,
 				A5FE20C123D1D22400E82104 /* Assets.xcassets */,
-				A5FE20C323D1D22400E82104 /* LaunchScreen.storyboard */,
 				A5FE20C623D1D22400E82104 /* Info.plist */,
 			);
 			path = xcodeTestMy;
@@ -130,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FE20C523D1D22400E82104 /* LaunchScreen.storyboard in Resources */,
 				A5FE20C223D1D22400E82104 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,17 +145,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A5FE20C323D1D22400E82104 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5FE20C423D1D22400E82104 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5FE20C723D1D22400E82104 /* Debug */ = {

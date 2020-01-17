@@ -18,7 +18,9 @@ class MainViewController: UIViewController {
         
         testButton = UIButton(type: .system)
         testButton.setTitle("MyButton", for: .normal)
+        testButton.setTitleColor(.blue, for: .normal)
         testButton.translatesAutoresizingMaskIntoConstraints = false
+        testButton.backgroundColor = UIColor.gray
         view.addSubview(testButton)
         func constraintsInit () {
             
