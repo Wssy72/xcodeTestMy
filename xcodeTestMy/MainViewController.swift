@@ -10,8 +10,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    var testButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+        
+        testButton = UIButton(type: .system)
+        testButton.setTitle("MyButton", for: .normal)
+        testButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(testButton)
+        func constraintsInit () {
+            
+        }
         // Do any additional setup after loading the view.
     }
 

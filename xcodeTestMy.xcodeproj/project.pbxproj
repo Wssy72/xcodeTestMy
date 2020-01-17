@@ -38,6 +38,7 @@
 		A588423D23D1D55B00E6E372 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				A5FE20BC23D1D21F00E82104 /* MainViewController.swift */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -64,7 +65,6 @@
 				A5FE20B823D1D21F00E82104 /* AppDelegate.swift */,
 				A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */,
 				A588423D23D1D55B00E6E372 /* Scene */,
-				A5FE20BC23D1D21F00E82104 /* MainViewController.swift */,
 				A5FE20C123D1D22400E82104 /* Assets.xcassets */,
 				A5FE20C323D1D22400E82104 /* LaunchScreen.storyboard */,
 				A5FE20C623D1D22400E82104 /* Info.plist */,
