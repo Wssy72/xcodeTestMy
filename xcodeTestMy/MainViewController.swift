@@ -20,10 +20,7 @@ class MainViewController: UIViewController {
         
         testButton = UIButton(type: .system)
         testButton.setTitle("Кнопка", for: .normal)
-        //testButton.contentEdgeInsets.left = 4
-        //testButton.contentEdgeInsets.right = 4
         testButton.contentEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
-        //testButton.sizeToFit()
         testButton.translatesAutoresizingMaskIntoConstraints = false
         testButton.layer.cornerRadius = 5
         testButton.layer.borderColor = UIColor.brown.cgColor
@@ -41,7 +38,7 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func constraintsInit () {
-        NSLayoutConstraint.activate([testButton.centerXAnchor.constraint (equalTo: view.centerXAnchor), testButton.centerYAnchor.constraint (equalTo: view.centerYAnchor), textNameField.bottomAnchor.constraint (equalTo: testButton.topAnchor, constant: -20), textNameField.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor, constant: 20), textNameField.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor, constant: -20)])
+        NSLayoutConstraint.activate([testButton.centerXAnchor.constraint (equalTo: view.centerXAnchor), testButton.centerYAnchor.constraint (equalTo: view.centerYAnchor), textNameField.bottomAnchor.constraint (equalTo: testButton.topAnchor, constant: -30), textNameField.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor, constant: 20), textNameField.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor, constant: -20)])
     }
 }
 

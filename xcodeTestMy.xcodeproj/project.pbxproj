@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5A17F4A23D5DF39007D1CA9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A17F4923D5DF39007D1CA9 /* ProfileView.swift */; };
 		A5FE20B923D1D21F00E82104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE20B823D1D21F00E82104 /* AppDelegate.swift */; };
 		A5FE20BB23D1D21F00E82104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */; };
 		A5FE20BD23D1D21F00E82104 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE20BC23D1D21F00E82104 /* MainViewController.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5A17F4923D5DF39007D1CA9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A5FE20B523D1D21F00E82104 /* xcodeTestMy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcodeTestMy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FE20B823D1D21F00E82104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 			name = Scene;
 			sourceTree = "<group>";
 		};
+		A5A17F4623D5CF89007D1CA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A17F4923D5DF39007D1CA9 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A5FE20AC23D1D21F00E82104 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 			children = (
 				A5FE20B823D1D21F00E82104 /* AppDelegate.swift */,
 				A5FE20BA23D1D21F00E82104 /* SceneDelegate.swift */,
+				A5A17F4623D5CF89007D1CA9 /* View */,
 				A588423D23D1D55B00E6E372 /* Scene */,
 				A5FE20C123D1D22400E82104 /* Assets.xcassets */,
 				A5FE20C623D1D22400E82104 /* Info.plist */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A17F4A23D5DF39007D1CA9 /* ProfileView.swift in Sources */,
 				A5FE20BD23D1D21F00E82104 /* MainViewController.swift in Sources */,
 				A5FE20B923D1D21F00E82104 /* AppDelegate.swift in Sources */,
 				A5FE20BB23D1D21F00E82104 /* SceneDelegate.swift in Sources */,
