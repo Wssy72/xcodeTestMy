@@ -11,23 +11,37 @@ import UIKit
 class MainViewController: UIViewController {
 
     var testButton: UIButton!
+    var textNameField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         view.backgroundColor = .white
         
         testButton = UIButton(type: .system)
-        testButton.setTitle("MyButton", for: .normal)
-        testButton.setTitleColor(.blue, for: .normal)
+        testButton.setTitle("Кнопка", for: .normal)
+        //testButton.contentEdgeInsets.left = 4
+        //testButton.contentEdgeInsets.right = 4
+        testButton.contentEdgeInsets = UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
+        //testButton.sizeToFit()
         testButton.translatesAutoresizingMaskIntoConstraints = false
-        testButton.backgroundColor = UIColor.gray
+        testButton.layer.cornerRadius = 5
+        testButton.layer.borderColor = UIColor.brown.cgColor
+        testButton.backgroundColor = UIColor.brown
+        testButton.setTitleColor(.white, for: .normal)
         view.addSubview(testButton)
-        func constraintsInit () {
-            
-        }
+        
+        textNameField = UITextField(frame: .zero)
+        textNameField.placeholder = "Введите текст"
+        textNameField.borderStyle = .roundedRect
+        textNameField.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(textNameField)
+        
+        constraintsInit()
         // Do any additional setup after loading the view.
     }
-
-
+    func constraintsInit () {
+        NSLayoutConstraint.activate([testButton.centerXAnchor.constraint (equalTo: view.centerXAnchor), testButton.centerYAnchor.constraint (equalTo: view.centerYAnchor), textNameField.bottomAnchor.constraint (equalTo: testButton.topAnchor, constant: -20), textNameField.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor, constant: 20), textNameField.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor, constant: -20)])
+    }
 }
 
