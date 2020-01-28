@@ -38,7 +38,8 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func constraintsInit () {
-        NSLayoutConstraint.activate([testButton.centerXAnchor.constraint (equalTo: view.centerXAnchor), testButton.centerYAnchor.constraint (equalTo: view.centerYAnchor), textNameField.bottomAnchor.constraint (equalTo: testButton.topAnchor, constant: -30), textNameField.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor, constant: 20), textNameField.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor, constant: -20)])
+        NSLayoutConstraint.activate([testButton.centerXAnchor.constraint (equalTo: view.centerXAnchor), testButton.centerYAnchor.constraint (equalTo: view.centerYAnchor), textNameField.bottomAnchor.constraint (equalTo: testButton.topAnchor, constant: -30),
+            textNameField.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor, constant: 20), textNameField.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor, constant: -20)])
     }
 }
 

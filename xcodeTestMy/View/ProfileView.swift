@@ -10,6 +10,8 @@ import UIKit
 
 class ProfileView: UIViewController {
     
+    var name = 1
+    
     override func viewDidLoad() {
        super.viewDidLoad()
     /*
